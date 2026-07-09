@@ -150,7 +150,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-BACKEND_URL = "http://127.0.0.1:8000"
+BACKEND_URL = "https://excel-consolidator-kf7j.onrender.com"
 
 if "uploaded" not in st.session_state:
     st.session_state.uploaded = False
